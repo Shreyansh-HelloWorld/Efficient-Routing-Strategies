@@ -54,15 +54,14 @@ Compilation
 
 Compile the C files using the following commands:
 
-gcc -o multi_destination_cost multi_destination_cost.c
-gcc -o min_cost_combinations min_cost_combinations.c
-gcc -o cost_with_intermediate_nodes cost_with_intermediate_nodes.c
+1. gcc -o multi_destination_cost multi_destination_cost.c
+2. gcc -o min_cost_combinations min_cost_combinations.c
+3. gcc -o cost_with_intermediate_nodes cost_with_intermediate_nodes.c
 
 Execution
 
 Run the compiled binaries with the following commands:
-
-./multi_destination_cost
+ ./multi_destination_cost
 ./min_cost_combinations
 ./cost_with_intermediate_nodes
 
@@ -70,15 +69,17 @@ Run the compiled binaries with the following commands:
 
 The routing strategies in this project work on a network of nodes that can be represented as follows:
 
-           [0]
-        /   |   \
-      /     |     \
-    /       |       \
-  [1]      [2]     [3]
-    \       |       /
-      \     |     /
-        \   |   /
-         [4]  [5]
+```text
+       [0]
+    /   |   \
+  /     |     \
+/       |       \
+[1]    [2]     [3]
+ \      |      /
+  \     |     /
+   \    |    /
+     [4] [5]
+```
 
 Explanation:
 
