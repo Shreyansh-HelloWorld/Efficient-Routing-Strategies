@@ -36,7 +36,7 @@ Iterates through all possible intermediate nodes to compute optimized paths.
 
 Outputs the best combination of routes with minimum costs.
 
-3. cost_with_intermediate_nodes.c
+3. cost_with_intermediate_nodes.cpp
 
 Purpose: Provides an optimized implementation for advanced routing strategies.
 
@@ -52,11 +52,11 @@ Outputs the minimum cost for routing to a destination node.
 
 Compilation
 
-Compile the C files using the following commands:
+Compile the C and C++ files using the following commands:
 
 1. gcc -o multi_destination_cost multi_destination_cost.c
 2. gcc -o min_cost_combinations min_cost_combinations.c
-3. gcc -o cost_with_intermediate_nodes cost_with_intermediate_nodes.c
+3. gcc -o cost_with_intermediate_nodes cost_with_intermediate_nodes.cpp
 
 Execution
 
@@ -115,7 +115,7 @@ Uses a dynamic programming approach to minimize costs.
 
 Output: Optimal routing costs with intermediate nodes.
 
-3. cost_with_intermediate_nodes.c
+3. cost_with_intermediate_nodes.cpp
 
 Input: Adjacency matrix, source node, destination nodes, intermediate nodes.
 
